@@ -1,0 +1,6 @@
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\Model\bin\Release\Model.dll
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\Model\bin\Release\Model.pdb
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\Model\obj\Release\Model.csproj.AssemblyReference.cache
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\Model\obj\Release\Model.dll
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\Model\obj\Release\Model.pdb

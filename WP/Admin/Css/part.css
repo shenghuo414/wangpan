@@ -1,0 +1,143 @@
+﻿.page{
+		display: none;
+	}
+	.tree_about_dang{
+		width: 100%;
+		text-align: center;
+		font-size: 0!important;
+	}
+	.tree_about_dang_first{
+		display: inline-block;
+		width:90%;
+		height: 224px;
+		background: url(/images/card.png) center no-repeat;
+		background-size: 99% 250px;
+		padding-top: 26px;
+		box-sizing: content-box;
+		text-align: center;
+        position:relative;
+	}
+	.tree_about_dang_border{
+		display: inline-block;
+		width:5.489%;
+		height: 250px;
+		text-align: center;
+		border-top: 4px solid #ea3527;
+		box-sizing: content-box;
+		position: relative;
+	}
+	.tree_about_dang_border:first-child:before{
+		content: "";
+		display: block;
+		width: 48%;
+		height: 8px;
+		position: absolute;
+		top: -4px;
+		left: 0;
+		background: #fff;
+	}
+	.tree_about_dang_border:last-child:before{
+		content: "";
+		display: block;
+		width: 48%;
+		height: 8px;
+		position: absolute;
+		top: -4px;
+		right: -1px;
+		background: #fff;
+	}
+.tree_about_dang_first a{
+		display: block;
+		font-size: 15px!important;
+		vertical-align: middle;
+		height: 190px;
+		text-align: center;
+		-webkit-writing-mode: vertical-lr;
+    	writing-mode: tb-lr;
+    	font-weight: 900;
+        position:absolute;
+        left:50%;
+        top:26px;
+        margin-left: -25%;
+	}
+	.dzzjg_title{
+		background: url(/images/JDDZZJGHGK.png) 10px center no-repeat;
+		width: 100%;
+		height: 111px;
+	}
+	.dzzjg_main_part{
+		width: 90%;
+		margin-left: 5%;
+		height: 586px;
+	    border: 2px solid #f0776e;
+	}
+	.main_part_title{
+		width: 100%;
+		height: 71px;
+		text-align: center;
+		line-height: 71px;
+	}
+	.main_part_title span{
+		display: inline-block;
+		height: 71px;
+		vertical-align: top;
+	}
+	.left_angle{
+		width: 157px;
+		background: url(/images/left_line.png) center no-repeat;
+	}
+	.right_angle{
+		width: 157px;
+		background: url(/images/right_line.png) center no-repeat;
+	}
+	.middle_text{
+		font-size: 24px!important;
+		color: #333;
+		font-weight: 900;
+		margin: 0 15px;
+	}
+	.about_zuzhi{
+		padding-left:50px ;
+		width: 77.7%;
+		height: 130px;
+		background:url(/images/ZZGK.png)left center no-repeat;
+		margin-left: 11.1%;
+		margin-top: 57px;
+	}
+	.about_zuzhi_linediv{
+		height: 32.5px;
+		border-bottom: 1px solid #fff;
+		font-size: 0!important;
+	}
+	.about_zuzhi_linediv p{
+		width: 17.8%;
+		height: 31.5px;
+		background: #ededed;
+		text-align: center;
+		border-bottom: 1px solid #d4d4d4;
+		color: #411a06;
+		line-height: 31px;
+		font-size: 15px!important;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.about_zuzhi_linediv span{
+		width: 32.2%;
+		height: 31.5px;
+		background: #fffdfc;
+		text-align: center;
+		border-bottom: 1px solid #ededed;
+		color: #666;
+		line-height: 31px;
+		font-size: 15px!important;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.count_num{
+		text-align: center;
+		width: 100%;
+		font-size: 23px!important;
+		line-height: 24px;
+		color: #666;
+		margin-bottom: 15px;
+	}

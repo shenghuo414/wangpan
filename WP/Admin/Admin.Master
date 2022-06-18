@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Food.Admin.Admin" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="../Js/jquery-1.11.0.min.js"></script>
+    <script src="../Js/layer.js"></script>
+    <link href="Css/layer.css" rel="stylesheet" />
+    <link href="Css/bootstrap.css" rel="stylesheet" />
+    <link href="Css/font-icons/entypo/css/entypo.css" rel="stylesheet" />
+    <link href="Css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="Scriptmanager1" runat="server"></asp:ScriptManager>
+    <div class="main-content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

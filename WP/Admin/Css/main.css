@@ -1,0 +1,221 @@
+﻿
+#mainform {
+	padding:54px 0 0;
+	width:100%;
+	background:url(/images/opacity_bg.png) bottom no-repeat;
+	background-color:#fcfcfc!important;
+	overflow-y:auto ;
+	overflow-x: hidden;
+}
+a {
+    cursor: pointer;
+}
+*{
+font-size:14px!important;
+}
+.right_list_li {
+    list-style: none;
+    line-height: 22px;
+    height: 22px;
+    position:relative;
+}
+.right_list_li p{
+    float:left;
+    display:inline-block;
+    width:68%;
+    text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+}
+.right_list_li span{
+    float:right;
+    display:inline-block;
+    width:28%;
+}
+.first_square_read,.first_square_unread{
+    padding-left:35px;
+}
+.first_square_read:before{
+    content:"未读";
+    padding:0 3px;
+    background:red;
+    font-size:12px!important;
+    position:absolute;
+    left:0;
+    top:5px;
+    line-height:13px;
+    color:#fff;
+    border-radius:3px;
+}
+.first_square_unread:before{
+    content:"已读";
+    padding:0 3px;
+    background:#b5b5b5;
+    font-size:12px!important;
+    position:absolute;
+    left:0;
+    top:5px;
+    line-height:13px;
+    color:#fff;
+    border-radius:3px;
+}
+.root-level.has-sub a i{
+	display: inline-block;
+	width: 25px;
+	vertical-align: middle;
+	height: 25px;
+	margin-right: 5px;
+}
+.root-level.has-sub ul li a i{
+	display: none;
+}
+.root-level.has-sub .tjfx_icon{
+	background: url(tjfx_icon.png)no-repeat;
+}
+.root-level.has-sub .djjl_icon{
+	background: url(djjl_icon.png);
+}
+.root-level.has-sub .dbwy_icon{
+	background: url(dbwy_icon.png)no-repeat;
+}
+.root-level.has-sub .zzjs_icon{
+	background: url(zzjs_icon.png);
+}
+.root-level.has-sub .zxxx_icon{
+	background: url(zxxx_icon.png)no-repeat;
+}
+.root-level.has-sub .dygl_icon{
+	background: url(dygl_icon.png);
+}
+.root-level.has-sub .djpp_icon{
+	background: url(djpp_icon.png)no-repeat;
+}
+.root-level.has-sub .xtgl_icon{
+	background: url(xtgl_icon.png);
+}
+.root-level.has-sub i:before{
+	display: none;
+} 
+body {
+background:url(header_title.png) top no-repeat;
+background-size:100% 180px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='header_title.png', sizingMethod='scale');
+/*background-position-y: -21px;*/
+}
+.page-container.horizontal-menu header.navbar.navbar-fixed-top {
+    position:absolute;
+top:60px;
+}
+.page-container.horizontal-menu.with-sidebar .sidebar-menu {
+top:110px;
+}
+
+header {
+height:58px;
+}
+body .page-container.horizontal-menu header.navbar .navbar-nav > li.active > a {
+height:50px;
+}
+.navbar-nav,.navbar-inner {
+
+height:58px;
+}
+.page-container.horizontal-menu header.navbar ul.nav {
+height:50px;
+}
+body .page-container .sidebar-menu {
+background:#fee5cb;
+}
+.body .page-container .sidebar-menu #main-menu li {
+background:#000;
+}
+
+.navbar-brand {
+text-align:center;
+color:#fff;
+font-size:16px;
+}
+/*首页、个人中心、系统管理、退出*/
+.four_button{
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+.four_button li{
+	list-style: none;
+	float: left;
+	color: #fff;
+	font-weight: 900;
+	margin: 0 25px;
+	font-size: 15px!important;
+	cursor: pointer;
+}
+/*下拉框部分*/
+.drp {
+	width:20.2%;
+	position: absolute;
+	right: 2.1%;
+	top: 180px;
+	z-index: 9990;
+	height:58px;
+	background: #f37334;
+	color: #fff;
+	font-size:16px!important;
+	padding-left:1.5%;
+	cursor: pointer;
+}
+.drp p{
+	margin: 0;
+	line-height: 56px;
+    height:56px;
+    
+	background: #f37334;
+	color: #fff;
+	font-size:16px!important;
+}
+.drp i{
+	font-size: 19px!important;
+	margin: 0 5%;
+}
+.drp:hover .drp_position_ul{
+	display: block;
+}
+.drp_position_ul{
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 58px;
+	width: 100%;
+	height: 380px;
+	background: #fff;
+	border: 1px solid #efefef;
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	display: none;
+}
+.drp_position_ul li{
+	height: 40px;
+	color: #333;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.drp_position_ul li:hover{
+	background: #fff7e1;
+	color: #f66c28;
+}
+.tree_about_dang_first a
+{
+    text-align:center;
+    display:block;
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+.tree_about_dang_first a p
+{
+    text-align:center;
+    display :block;
+    margin:0 auto;
+}

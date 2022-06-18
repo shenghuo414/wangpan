@@ -1,0 +1,295 @@
+.people_a{
+	width: 100%;
+	padding: 15px 0;
+}
+.people_a .pa_header{
+	width: 100%;
+	border-bottom: 4px solid #f2f6fc;
+	height: 43px;
+}
+.people_a .pa_header li{
+	height: 43px;
+	line-height: 43px;
+	width: 90px;
+	float: left;
+	text-align:center;
+	margin: 0 30px;
+	font-size: 21px;
+	color: #999999;
+	cursor: pointer;
+}
+.people_a .pa_header li.select{
+	color: #0f61d0;
+	border-bottom: 4px solid #71a5ec;
+}
+.pa_main{
+	width: 100%;
+}
+.pa_main .pa_tab{
+	width: 100%;
+	display: none;
+}
+.pa_main .pa_tab.select{
+	display: block;
+}
+.pa_main .pandect{
+	height: 496px;
+	padding: 25px 0;
+}
+.pa_main .pandect .p_inf{
+	width: 307px;
+	border-right:1px solid #dce6f9;
+	height: 100%;
+}
+.pa_main .pandect .p_inf .pic,
+.pa_main .pandect .p_inf .name,
+.pa_main .pandect .p_inf .com,
+.pa_main .pandect .p_inf .post,
+.pa_main .pandect .p_inf .long_time,
+.pa_main .pandect .p_inf .count{
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 17px;
+	color: #333333;
+}
+
+.pa_main .pandect .p_inf .pic{
+	height: 162px;
+}
+.pa_main .pandect .p_inf .pic img{
+	height: 100%;
+}
+.pa_main .pandect .p_inf .name{
+	height: 43px;
+	line-height: 43px;
+	font-size: 22px;
+	font-weight: 900;
+}
+.pa_main .pandect .p_inf .long_time{
+	margin-top: 40px;
+}
+.pa_main .pandect .p_char{
+	width: 863px;
+	height: 100%;
+}
+.pa_main .pandect .p_char .for_ea{
+	width: 863px;
+	height: 379px;
+}
+.pa_main .pandect .p_char .top_fil{
+	width: 100%;
+	height: 67px;
+	padding: 15px 0;
+	text-align: center;
+}
+.pa_main .pandect .p_char .top_fil span{
+	font-size: 22px;
+	color: #333333;
+	font-weight: 900;
+}
+.pa_main .pandect .p_char .top_fil .my_select{
+	width: 141px;
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+.pa_main .pandect .p_char .top_fil .my_select .se{
+	top: 33px;
+	text-align: left;
+}
+.pa_main .pandect .p_char .top_fil .my_select .f_select{
+	line-height: 33px;
+	text-align: left;
+}
+.pa_main .pandect .p_char .top_fil .my_select .f_select i{
+	right: 10px;
+    top: 15px;
+}
+
+/*荐文学习*/
+.re_art{
+	margin-bottom: 20px;
+	padding: 5px 40px;
+}
+.re_art .study_record{
+	width: 100%;
+	height: 69px;
+	padding: 16px 0;
+}
+.re_art .study_record span{
+	font-size: 21px;
+	line-height: 37px;
+	margin-right: 15px;
+}
+.re_art .study_record .my_select{
+	width: 93px;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.re_art .study_record .my_select .se{
+	top: 37px;
+	text-align: left;
+}
+.re_art .study_record .my_select .se li{
+	padding-left:10px ;
+}
+.re_art .study_record .my_select .f_select{
+	line-height: 33px;
+	text-align: left;
+	padding-left:10px;
+}
+.re_art .study_record .my_select .f_select i{
+	right: 10px;
+    top: 14px;
+}
+.re_art .study_record .submit{
+	width: 99px;
+	height: 100%;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+}
+.re_art .one_ra{
+	width: 100%;
+	border-top: 1px solid #e8effb;
+	padding: 12px 0;
+}
+.re_art .one_ra .ora_text{
+	line-height: 44px;
+	font-size: 21px;
+	color: #333333;
+}
+.re_art .one_ra .ora_text i{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #337cda;
+	display: block;
+	float: left;
+	margin-left: -15px;
+	margin-top:20px ;
+}
+.re_art .one_ra .read{
+	height: 44px;
+	display: none;
+}
+.re_art .one_ra .read span{
+	line-height: 44px;
+	height: 44px;
+	font-size: 17px;
+	color: #808080;
+	margin-right: 50px;
+}
+.re_art .one_ra .unread{
+	line-height: 44px;
+	height: 44px;
+	font-size: 17px;
+	color: #387fdb;
+}
+.re_art .one_ra.reading .read{
+	display: block;
+}
+.re_art .one_ra.reading .unread{
+	display: none;
+}
+.re_art .one_ra.reading .ora_text i{
+	background: #c0c0c0;
+}
+
+/*荐文学习详情*/
+.re_art_tq{
+	width: 100%;
+}
+.re_art_tq .title{
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	color: #0f61d0;
+	height: 65px;
+	line-height: 65px;
+	font-weight: 900;
+}
+.text_ques{
+	width: 100%;
+	border-bottom: 1px solid #e8effb;
+	position: relative;
+}
+.text_ques .collect{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #0f61d0;
+	font-size: 18px;
+}
+.text_ques .count{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	color: #0f61d0;
+	font-size:21px;
+}
+.text_ques .tq_text{
+	width: 100%;
+	line-height: 40px;
+	font-size: 21px;
+	color: #333333;
+}
+.text_ques .two_opt{
+	width: 100%;
+}
+.beau_in{
+	width: 100%;
+	line-height: 40px;
+	font-size: 19px;
+	position: relative;
+	padding-left: 40px;
+	color: #333333;
+}
+.beau_in input[type=radio],.beau_in input[type=checkbox]{
+	display: none;
+}
+.beau_in input[type=radio]+label,.beau_in input[type=checkbox]+label{
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	border: 2px solid #bcbcbc;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.beau_in input[type=radio]+label i{
+	width: 11px;
+	height: 11px;
+	display:block;
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	top: 2px;
+	left: 2px;
+}
+.beau_in input[type=radio]:checked+label i{
+	background:#0f61d0;
+}
+.beau_in input[type=checkbox]+label i{
+	width: 18px;
+	height: 18px;
+	display:block;
+	position: absolute;
+	background: none;
+	border-radius: 50%;
+	cursor: pointer;
+	top: -5px;
+	left: 1px;
+}
+.beau_in input[type=checkbox]:checked+label i{
+	background:url(images/ch_tr.png) no-repeat;
+}
+

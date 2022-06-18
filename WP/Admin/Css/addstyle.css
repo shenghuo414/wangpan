@@ -1,0 +1,57 @@
+﻿.main-content {
+    height: 100%;
+    padding:0 20px;
+}
+.form-group {
+    border-bottom:1px solid #ccc;
+}
+.labels {
+    width: 150px;
+    display: inline-block;
+    text-align:right;
+    padding-right:20px;
+    line-height:50px;
+}
+input {
+    display:inline-block!important;
+}
+select {
+    display: inline-block!important;
+}
+.rcss {
+    display: inline-block;
+    height: 30px;
+    padding-top: 15px;
+}
+.width350{
+    width:350px;
+}
+.width150{
+    width:150px;
+}
+.mutinput{
+    width:350px;
+    height:80px!important;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:5px;
+}
+.mutspan{
+    display: block;
+    text-align: left;
+    position: absolute;
+    padding-left: 155px;
+}
+.fieldlabel {
+    display: inline-block;
+    background-color: #FFFFEC;
+    border: 1px solid #FFcccc;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.mr10 {
+            margin-right:10px;
+            margin-top:10px;
+            }

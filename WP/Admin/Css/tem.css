@@ -1,0 +1,20 @@
+﻿.tem_control {
+    height: 32px;
+    outline: 0;
+    border: #D1D6D9 solid 1px;
+    background-color: #fff;
+    color: #444;
+        padding-right: 10px;
+    padding-left: 10px;
+
+}
+.tem_labels {
+    width:100px;
+    display: inline-block;
+}
+.tem_tips {
+
+}
+.col-tem{
+    margin-top: 20px;
+}

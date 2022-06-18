@@ -1,0 +1,287 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+	font-size:14px!important;
+}
+a{ 
+	text-decoration:none;  
+}
+li{
+	list-style:none;
+}
+.pull-left{
+	display:inline-block;
+	float:left;
+}
+.pull-right{
+	display:inline-block;
+	float:right;
+}
+/*#wrapper{
+	width:100%;
+	background:#fcfcfc url(../images/opacity_bg.png) bottom no-repeat;
+	padding-bottom: 2%;
+}*/
+.breadcrumb {
+	padding:1% 2%;
+	list-style: none;
+}
+.breadcrumb a{
+	color:#000;
+	font-size:14px;
+}
+.slideTxtBox{ 
+	width:100%;  
+	/*min-height:650px;*/
+}
+/*.main-content{
+	padding: 0;
+}*/
+.slideTxtBox .hd{ 
+	height:103px; 
+	padding: 0 150px 0 90px;
+}
+.slideTxtBox .hd img{ 
+	float: left;
+	margin-top: 35px;
+}
+.slideTxtBox .hd ul{ 
+	float: right;
+	height:100%;
+	padding: 38px 0;
+}
+.slideTxtBox .hd ul li{ 
+	float:left; 
+	cursor:pointer;
+	font-size:16px!important;
+	color:#bebebe;
+	box-sizing: border-box;
+}
+.slideTxtBox .hd ul li.on{
+	border-bottom:2px solid #cc100e;
+	color:#ea3527;
+}
+/*bd部分*/
+.bd{
+	padding: 0 140px;
+}
+
+/*直属辖区统计开始*/
+.zhishu{  
+	/*background:#fff;*/
+    margin-bottom:40px;
+}
+.benji{ 
+	min-height:650px;
+	background:#fff;  
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+/*党组织*/
+.red_border_style{
+	border: 2px solid #ea3527;
+	background: #fff;
+	position: relative;
+	z-index: 99;
+	box-shadow: 10px 10px rgba(0,0,0,0.1);
+	behavior: url(js/PIE/PIE.htc);
+}
+.dzz{
+	width:31.785%;
+	height: 290px;
+	margin-bottom: 23px;
+}
+.title{
+	font-size:21px!important;
+	color:#ea3527;
+	height:70px;
+	padding: 20px 0;
+	text-align: center;
+}
+.title_short{
+	background: url(../images/orange_line_short.png) center no-repeat;
+}
+.title_long{
+	background: url(../images/orange_line.png) center no-repeat;
+}
+.title_white{
+	background: url(../images/white_line.png) center no-repeat;
+}
+.dzz_nr{
+	font-size:16px!important;
+	line-height: 65px;
+	height: 65px;
+	color: #333333;
+	font-weight: 900;
+}
+.dzz_nr .left{
+	padding-left: 15.1%;
+	display:inline-block;
+	width:60%;
+	font-size:14px;
+	position: relative;
+}
+.dzz_nr .left:before{
+	content: "";
+	display: block;
+	background: #ea3527;
+	width: 7px;
+	height: 3px;
+	position: absolute;
+	top: 48%;
+	left: 19%;
+}
+.dzz_nr .right{
+	display:inline-block;
+	position:relative;
+	width: 13%;
+}
+/*党员活动*/
+.dyhd{
+	width:66.1%;
+	height: 290px;
+	margin-bottom: 20px;
+}
+.first_child_color td{
+	color:#8b170e!important;
+	font-weight: 900!important;
+}
+td{
+	height:36px;
+	text-align:center;
+	border: 1px solid #d2d2d2;
+	color: #808080;
+}
+.first_td{
+	width: 29.2%;
+}
+tr{
+	width:20%;
+}
+/*tr:hover{
+	background:#e6e6e6;
+}*/
+/*联系群众*/
+.lxqz{
+	width:31.785%;
+	height: 290px;
+}
+.lxqz_nr{
+	font-size:16px!important;
+    line-height:41px;
+	height:41px;
+    position:relative;
+    color: #333333;
+    font-weight: 900;
+}
+.lxqz_nr .left{
+	margin-left: 4.3%;
+	width:11.17%;
+	display:inline-block;
+	font-size:14px;
+	background: url(../images/person_icon.png) no-repeat;
+	background-position-x: center;
+	height: 100%;
+}
+.lxqz_nr .center{
+	display:inline-block;
+	width:40%;
+	font-size:14px;
+}
+.lxqz_nr .right{
+	display:inline-block;
+    position:absolute;
+    right:7%;
+}
+/*党工委*/
+.dgw{
+	width:31%;
+	height: 290px;
+	background: url(../images/xigang_bg.png) no-repeat;
+	background-size: 100% 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='../images/xigang_bg.png', sizingMethod='scale');
+	margin-left: 2.15%;
+}
+/*党建品牌*/
+.djpp{
+	width:33%;
+	height: 290px;
+}
+.djpp_bg_outdiv{
+	width: 100%;
+	height: 216px;
+	text-align: center;
+	line-height: 216px;
+	
+}
+/*.djpp img{
+	width: 100%;
+	position: relative;
+}*/
+.djpp ul{
+	padding: 0 40px 0 60px;
+	text-align: center;
+}
+.djpp ul li{
+	display: inline-block;
+	width: 48%;
+	margin: 15px 0;
+}
+/*.djpp ul li:nth-of-type(odd){
+	margin-right: 18.5%;
+}*/
+.djpp ul li .pull-right{
+	font-size:18px;
+	color:#cc100e;
+}
+.djpp .left{
+	width:40.44%;
+	float: left;
+	font-size:14px;
+	height: 62px;
+}
+.ldgc_icon{
+	background: url(../images/dlgc_icon.png) center no-repeat;
+	background-size: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='../images/dlgc_icon.png', sizingMethod='scale');
+}
+.pqfr_icon{
+	background: url(../images/pqfr_icon.png) center no-repeat;
+	background-size: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='../images/pqfr_icon.png', sizingMethod='scale');
+}
+.zfmq_icon{
+	background: url(../images/zfmq_icon.png) center no-repeat;
+	background-size: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='../images/zfmq_icon.png', sizingMethod='scale');
+}
+.dyjsq_icon{
+	background: url(../images/dyjsq_icon.png) center no-repeat;
+	background-size: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='../images/dyjsq_icon.png', sizingMethod='scale');
+}
+.djpp .right{
+	width: 59.56%;
+	float: right;
+}
+.djpp .right_top,.djpp .right_bottom{
+	display: block;
+	font-weight: 900;
+}
+.djpp .right_top{
+	background: #ea3527;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(js/PIE/PIE.htc);
+	cursor: pointer;
+}
+.djpp .right_bottom{
+	line-height: 34px;
+}
+/*直属辖区统计结束*/

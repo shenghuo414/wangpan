@@ -1,0 +1,4 @@
+cd C:\Windows\Microsoft.NET\Framework\v4.0.30319
+InstallUtil.exe C:\Users\gzxx\Desktop\TZBXHHService\TZBXHHService\bin\TZBXHHService.exe
+sc delete TZBXHHService
+sc delete TZBXHHCheck

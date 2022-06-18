@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="Template/PC/js/jquery-1.11.0.min.js"></script>
+    <script src="Template/PC/js/layui/layui.all.js"></script>
+    <link href="Template/PC/js/layui/css/layui.css" rel="stylesheet" />
+    <link href="Admin/Css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="manage_top" class="toptitle menu_top_fixed">系统操作提示信息</div>
+    <div class="menu_top_fixed_height"></div>
+    <div class="content-area">
+                      <table class="CTable" style="border:2px solid #1E9FFF" height="200" cellspacing="1" cellpadding="1" width="95%" align="center">
+                        <tbody><tr class="tdbg">
+                          <td align="middle" width="200"><span class="success"></span></td><td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>非常抱歉，系统繁忙！</b><br><div id="showcreate" style="BORDER-RIGHT: #e7e7e7; BORDER-TOP: #e7e7e7; MARGIN-TOP: 15px; OVERFLOW: auto; BORDER-LEFT: #e7e7e7; WIDTH: 100%; BORDER-BOTTOM: #e7e7e7; HEIGHT: 220px"><li>当前网络系统不稳定造成的，建议您稍后重新尝试。如果您确认其他任何操作均无异常提醒，且长时间尝试后均出现此错误提示，建议联系技术人员，以便帮您核实处理。!</li></div> </td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </div>
+    <script>
+        try {
+            parent.HourExit();
+        } catch (E) {
+            HourExit();
+            
+        }
+
+        function HourExit() {
+            layer.confirm('登录超时，确定要退出系统吗？', {
+                skin: 'layer-ext-moon',
+                closeBtn: 0,//样式类名
+                btn: ['确定', '取消'] //按钮
+            }, function () {
+
+                location.href = "Login.aspx";
+
+            }, function () {
+
+            });
+        }
+    </script>
+</body>
+</html>

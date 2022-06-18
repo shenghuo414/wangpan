@@ -1,0 +1,70 @@
+D:\项目\Food\BLL\bin\Debug\BLL.dll
+D:\项目\Food\BLL\bin\Debug\BLL.pdb
+D:\项目\Food\BLL\bin\Debug\DAL.dll
+D:\项目\Food\BLL\bin\Debug\Model.dll
+D:\项目\Food\BLL\bin\Debug\DBUtility.dll
+D:\项目\Food\BLL\bin\Debug\DAL.pdb
+D:\项目\Food\BLL\bin\Debug\Model.pdb
+D:\项目\Food\BLL\bin\Debug\DBUtility.pdb
+D:\项目\Food\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\项目\Food\BLL\obj\Debug\BLL.dll
+D:\项目\Food\BLL\obj\Debug\BLL.pdb
+D:\项目\WP\BLL\bin\Debug\BLL.dll
+D:\项目\WP\BLL\bin\Debug\BLL.pdb
+D:\项目\WP\BLL\bin\Debug\DAL.dll
+D:\项目\WP\BLL\bin\Debug\Model.dll
+D:\项目\WP\BLL\bin\Debug\DBUtility.dll
+D:\项目\WP\BLL\bin\Debug\DAL.pdb
+D:\项目\WP\BLL\bin\Debug\Model.pdb
+D:\项目\WP\BLL\bin\Debug\DBUtility.pdb
+D:\项目\WP\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\项目\WP\BLL\obj\Debug\BLL.dll
+D:\项目\WP\BLL\obj\Debug\BLL.pdb
+D:\1\WP\BLL\bin\Debug\BLL.dll
+D:\1\WP\BLL\bin\Debug\BLL.pdb
+D:\1\WP\BLL\bin\Debug\DAL.dll
+D:\1\WP\BLL\bin\Debug\Model.dll
+D:\1\WP\BLL\bin\Debug\DBUtility.dll
+D:\1\WP\BLL\bin\Debug\DAL.pdb
+D:\1\WP\BLL\bin\Debug\Model.pdb
+D:\1\WP\BLL\bin\Debug\DBUtility.pdb
+D:\1\WP\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\1\WP\BLL\obj\Debug\BLL.dll
+D:\1\WP\BLL\obj\Debug\BLL.pdb
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\BLL.dll
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\BLL.pdb
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\DAL.dll
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\Model.dll
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\DBUtility.dll
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\DAL.pdb
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\Model.pdb
+C:\Users\gzxx\Documents\WP\BLL\bin\Debug\DBUtility.pdb
+C:\Users\gzxx\Documents\WP\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\gzxx\Documents\WP\BLL\obj\Debug\BLL.dll
+C:\Users\gzxx\Documents\WP\BLL\obj\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\DBUtility.dll
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\bin\Debug\DBUtility.pdb
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator\Desktop\httpswww.dkewl.com\ASP.NET仿百度网盘文件分享文件管理系统源码 会员上传下载文件 带搭建教程\网盘系统\BLL\obj\Debug\BLL.pdb
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\BLL.dll
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\BLL.pdb
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\DAL.dll
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\Model.dll
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\DBUtility.dll
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\DAL.pdb
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\Model.pdb
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\bin\Debug\DBUtility.pdb
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\obj\Debug\BLL.dll
+C:\Users\生活\Desktop\百度网盘文件\百度网盘文件分享文件管理系统\网盘系统\BLL\obj\Debug\BLL.pdb

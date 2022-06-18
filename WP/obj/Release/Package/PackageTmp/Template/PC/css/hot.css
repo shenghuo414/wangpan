@@ -1,0 +1,58 @@
+﻿A.ap:link {
+	DISPLAY: block; FONT-SIZE: 12px; OVERFLOW: hidden; COLOR: #5b5b5b; HEIGHT: 45px; text-decoration:none;
+}
+A.ap:visited {
+	DISPLAY: block; FONT-SIZE: 12px; OVERFLOW: hidden; COLOR: #5b5b5b; HEIGHT: 45px; text-decoration:none;
+}
+A.ap:hover {
+	DISPLAY: block; FONT-SIZE: 12px; OVERFLOW: hidden; COLOR: #F17700; HEIGHT: 45px; text-decoration:none;
+}
+ A.ap:active {
+	DISPLAY: block; FONT-SIZE: 12px; OVERFLOW: hidden; COLOR: #5b5b5b; HEIGHT: 45px; text-decoration:none;
+}.nav a{
+	
+	height:25px;
+	line-height:25px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:#5F6F43;
+	padding-left:14px;
+	margin:2px 0px;
+	cursor:pointer;
+	}
+.nav a.on,.nav a.on:hover{
+	color:#fff;
+	background:url(images/nav.png) left top no-repeat;
+	}
+.nav a:hover{
+	background:url(images/navover.png) left top no-repeat;
+	text-decoration:none;
+	}
+	.ul1
+	{
+	width:648px;
+	 margin-left:15px;
+	 margin-right:15px;
+	 margin-top:5px; 
+	 margin-bottom:5px;
+    }
+    .ul1 li
+    {
+    	width:128px;float:left;	
+    }
+
+    .family1{
+	border-bottom:#FFCC66 1px solid;
+	height:27px;
+}
+.family1 strong{
+	font-size:14px;
+	float:left;
+	color:#333;
+	margin-left:20px;
+	margin-top:3px;
+}
+.mt10 {
+    margin-top:10px;
+}

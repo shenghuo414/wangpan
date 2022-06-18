@@ -1,0 +1,111 @@
+﻿.navbar-fixed-top {
+    position: absolute;
+    width:100%;
+}
+/*.has-sub {
+    position: relative;
+    float:left;
+    font-size: 14px!important;
+    padding-right:10px;
+    padding-left:10px;
+}*/
+.navbar-nav > li {
+        position: relative;
+    float:left;
+    font-size: 14px!important;
+    padding-right:10px;
+    padding-left:10px;
+}
+.navbar-nav > li > a {
+    border-right-color: #e68887;
+    color: #fff;
+    height: 58px;
+    line-height: 58px;
+    position: relative;
+    display: block;
+    text-align: center;
+    border-right: none;
+}
+.navbar-nav > li:hover {
+    background:#f37334;
+}
+.root-level.has-sub a i {
+    display: inline-block;
+    width: 25px;
+    vertical-align: middle;
+    height: 25px;
+    margin-right: 5px;
+}
+.navbar-nav > li ul {
+    background: #ffffff;
+    position: absolute;
+    list-style: none;
+    margin-top: 0px;
+    margin-left:10px;
+    padding: 0;
+    left: 0;
+    top: auto;
+    width: 252px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    border-bottom: 4px solid #feb312;
+}
+.navbar-nav > li ul li a {
+    color: #333333;
+    font-weight: 900;
+    display: block;
+    padding: 10px 00px;
+    white-space: nowrap;
+    border-color: #a22424;
+    text-align: center;
+}
+.navbar-nav > li ul li {
+    position: relative;
+}
+.root-level.has-sub .tjfx_icon {
+    background: url(/Images/tjfx_icon.png)no-repeat;
+}
+.root-level.has-sub .djjl_icon{
+	background: url(/Images/djjl_icon.png);
+}
+.root-level.has-sub .dbwy_icon{
+	background: url(/Images/dbwy_icon.png)no-repeat;
+}
+.root-level.has-sub .zzjs_icon{
+	background: url(/Images/zzjs_icon.png);
+}
+.root-level.has-sub .zxxx_icon{
+	background: url(/Images/zxxx_icon.png)no-repeat;
+}
+.root-level.has-sub .dygl_icon{
+	background: url(/Images/dygl_icon.png);
+}
+.root-level.has-sub .djpp_icon{
+	background: url(/Images/djpp_icon.png)no-repeat;
+}
+.root-level.has-sub .xtgl_icon{
+	background: url(/Images/xtgl_icon.png);
+}
+.root-level.has-sub i:before{
+	display: none;
+} 
+.navbar-nav > li ul li.has-sub > a:before {
+    position: absolute;
+    right: 20px;
+    content: '\e879';
+    font-family: 'Entypo';
+    color: #333;
+    float: right;
+    font-size: 15px;
+    margin-left: 20px;
+    top: 10px;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.navbar-nav > li ul li ul {
+    position: absolute;
+    left: 100%;
+    top: -1px;
+}

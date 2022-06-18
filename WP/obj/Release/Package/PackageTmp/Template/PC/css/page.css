@@ -1,0 +1,36 @@
+﻿*{ margin:0; padding:0; list-style:none;} 
+a{ text-decoration:none;} 
+a:hover{ text-decoration:none;}
+.pagenum {
+    color:#ec5541;
+    line-height:15px;
+    padding: 5px 5px;margin: 0 2px;
+    margin-top:10px;
+    margin-right:30px;
+}
+.pagebox {
+       width: 30px;
+    line-height: 15px;
+    /*height: 22px;*/
+    padding: 5px 5px;
+    text-align: center;
+    margin-left: 30px;
+}
+.pagebutton {
+        color: #ec5541;
+    background-color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 15px;
+    padding: 5px 5px;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.tcdPageCode{padding: 15px 20px;text-align: right;color: #ccc; margin-bottom:20px; clear: both;} 
+.tcdPageCode a{ text-align:center;min-width:20px; height: 16px;display: inline-block;color: #ec5541;display: inline-block; line-height: 15px; padding: 5px 5px;border: 1px solid #ddd; margin: 0 2px;border-radius: 4px;vertical-align: middle;} 
+.tcdPageCode a:hover{text-decoration: none;border: 1px solid #ec5541;} 
+.tcdPageCode span.current{text-align:center;min-width:20px; display: inline-block;line-height:15px;padding: 5px 5px;margin: 0 2px;color: #fff;background-color: #ec5541; border: 1px solid #ec5541;border-radius: 4px;vertical-align: middle;} 
+.tcdPageCode span.disabled{ display: inline-block;line-height: 15px;padding: 5px 5px;margin: 0 2px; color: #bfbfbf;background: #f2f2f2;border: 1px solid #bfbfbf;border-radius: 4px;vertical-align: middle;} 
