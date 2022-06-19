@@ -16,14 +16,18 @@ namespace Food
         {
             if (!this.IsPostBack) 
             {
-                SqlParameter[] param = new SqlParameter[] {
+                if (Request["code"] != null)
+                {
+                    SqlParameter[] param = new SqlParameter[] {
                     new SqlParameter("@Share",SqlDbType.NVarChar)
                 };
-                param[0].Value = Request["code"].ToString();
-                DataTable dt = DBUtility.DbHelperSQL.Query("select *,(select LoginName from GZXX_U_UserTable where GZXX_U_UserTable.InfoID = WP_File.UserInfoID) as LoginName from WP_File where ShareID = @Share", param).Tables[0];
-                Literal1.Text = GetxxxString(dt.Rows[0]["LoginName"].ToString());
-                HiddenField1.Value = DBUtility.DESEncrypt.Encrypt(dt.Rows[0]["ShareCode"].ToString());
-                HiddenField2.Value = DBUtility.DESEncrypt.Encrypt(dt.Rows[0]["Title"].ToString());
+                    param[0].Value = Request["code"].ToString();
+                    DataTable dt = DBUtility.DbHelperSQL.Query("select *,(select LoginName from GZXX_U_UserTable where GZXX_U_UserTable.InfoID = WP_File.UserInfoID) as LoginName from WP_File where ShareID = @Share", param).Tables[0];
+                    Literal1.Text = GetxxxString(dt.Rows[0]["LoginName"].ToString());
+                    HiddenField1.Value = DBUtility.DESEncrypt.Encrypt(dt.Rows[0]["ShareCode"].ToString());
+                    HiddenField2.Value = DBUtility.DESEncrypt.Encrypt(dt.Rows[0]["Title"].ToString());
+                }
+                   
             }
         }
 

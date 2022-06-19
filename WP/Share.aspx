@@ -196,8 +196,8 @@
     bottom: 0;
 }
         .acss_banner {
-            width: 212px;
-            height: 55px;background-repeat: no-repeat;
+            width: 450px;
+            height: 150px;background-repeat: no-repeat;
     margin: 0 auto 30px;
                 background-image: url(/images/biglogo.png);
         }
